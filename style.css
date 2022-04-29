@@ -58,6 +58,7 @@ body{
     background: #FFFFFF;
     
 }
+
 .header__logo{
     grid-column-start: 2;
 }
@@ -84,6 +85,7 @@ nav{
 .item__menu:hover{
     color: #CA3192;
 }
+
 .header__navigator{
     grid-column-start: 4;
     display: flex;
@@ -1238,4 +1240,62 @@ nav{
     font-size: 38px;
     transition: all 0.2s;
     right: -1368px;
+}
+@media(max-width: 1800px){
+    
+    .header__menu{
+        grid-template-columns: 13.14% auto auto auto 13.66%;
+    }
+    .header__info{
+        grid-template-columns: 13.66% auto auto 13.66%;
+    }
+    .wallpaper__image{
+        grid-template-columns: 13.54% auto auto auto auto 13.54%;
+    }
+    .instagram{
+        grid-template-columns: 13.66% auto auto auto 13.66%;
+    }
+    .new-wallpaper{
+        grid-template-columns: 13.54% auto 13.54%;
+        
+    }
+    .tile{
+        grid-template-columns:260px auto auto 260px;
+    }
+    .grid-tile{
+        grid-template-columns: 13.54% auto auto auto auto 13.54%;
+    }
+    .paints{
+        grid-template-columns: 13.54% auto auto 13.54%;
+    }
+    .color-slider{
+        grid-template-columns: 13.54% auto 13.54%;
+    }
+    .wallpaper-dream{
+        grid-template-columns: 13.54% auto auto 13.54%;
+    }
+    .about-us{
+        grid-template-columns: 13.54% auto auto 13.54%;
+    }
+    .special{
+        grid-template-columns: 13.54% auto auto 13.54%;
+    }
+    .wallpaper-bedroom{
+        grid-template-columns: auto auto;
+    }
+    .wallpaper-living_room{
+        grid-template-columns: auto auto;
+    }
+    .wallpaper-kitchen{
+        grid-template-columns: auto auto;
+    }
+    .wallpaper-childrens_room{
+        grid-template-columns: auto auto;
+    }
+    .wallpaper-bathroom{
+        grid-template-columns: auto auto;
+    }
+    .question__big-conteiner{
+        grid-template-columns: 13.54% auto auto auto 15.63%;
+    }
 }

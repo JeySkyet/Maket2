@@ -1,0 +1,33 @@
+@media(max-width: 420px){
+.header__info-text_mobile{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.header__info{
+    height: 24px;
+}
+
+
+
+
+
+
+
+}
+@media(min-width:421px){
+    .header__info-text_mobile{
+        display: none;
+    }
+}
+@media(max-width:420px){
+    .header__info-text_main{
+        display: none;
+    }
+    .header__communicate{
+        display: none;
+    }
+}
